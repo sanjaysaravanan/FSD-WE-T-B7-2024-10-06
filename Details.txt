@@ -1,0 +1,50 @@
+
+Topics:
+
+  Shapes
+    1. Rectangle 
+    2. Square
+    3. Circle 
+    4. Triangle
+
+  Transition & Animation
+
+    Transition:
+      CSS prop values getting changed from one value to a different value
+
+        height: 100px; depending on an action height: 50px;
+      
+      Transition handles the state change in a specified way, Eg: smooth transition
+    
+    Transform:
+      certain function in css which transform the element from from one state to another,
+
+      Eg: scale, translate, rotate, skew
+    
+    Animation:
+      Animation is similar to transition, but animation does not relay on a state/action like hover, visited
+
+      Animation happens when the elements is mounted into the DOM( Browser view elements )
+
+  Tailwind CSS:
+
+    Tailwind is a setup of css classes that will be embedded during the loading of the HTML page,
+
+      1. Setup
+          Attach CSS using the javascript link
+
+      2. Colors ( text, background )
+      3. Typography
+      4. Spaces & Sizes
+      5. Borders
+      6. image
+      7. Customization
+
+Task:
+  Learn & Practice the CSS available in Tailwind-CSS
+
+Next Session:
+
+  Shapes:
+    5. Pentagon
+    6. Hexagon

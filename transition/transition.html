@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .bg-blue {
+        background-color: aqua;
+      }
+
+      .div-trans {
+        height: 100px;
+        width: 100px;
+        /* transition-property: height;
+        transition-duration: 2s;
+        transition-timing-function: ease; */
+
+        /* Above three props can be represented as below */
+        transition: all 1s ease-in;
+      }
+
+      /* Change the height of the div while hover */
+      .div-trans:hover {
+        /* Transforms */
+        /* Scale */
+        /* transform: scale(1.5); */
+        transform: scaleY(1.5);
+
+        /* rotate */
+        /* transform: rotate(360deg); */
+        transform: rotateZ(0deg);
+
+        /* skew */
+        /* transform: skew(90deg); */
+
+        /* translate */
+        /* transform: translate(100px, 100px);
+        transform: translateY(100px); */
+
+        background-color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div-trans bg-blue"></div>
+  </body>
+</html>

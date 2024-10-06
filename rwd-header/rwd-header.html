@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      header {
+        display: flex;
+        justify-content: space-between;
+      }
+      .navs {
+        display: none;
+      }
+
+      .login-signup {
+        display: none;
+      }
+
+      @media screen and (min-width: 767px) {
+        .navs {
+          display: block;
+        }
+
+        .menu-icon {
+          display: none;
+        }
+      }
+      @media screen and (min-width: 450px) {
+        .login-signup {
+          display: inline;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!-- Logo Section -->
+      <div>Logo</div>
+      <!-- Center Navs Section -->
+      <div class="navs">Navs</div>
+      <!-- Right Login/SignUp -->
+      <div style="display: flex; align-items: center; gap: 24px">
+        <div class="login-signup">
+          <button>Login / SignUp</button>
+        </div>
+        <i class="fa-solid fa-bars fa-2x menu-icon"></i>
+      </div>
+    </header>
+  </body>
+</html>
